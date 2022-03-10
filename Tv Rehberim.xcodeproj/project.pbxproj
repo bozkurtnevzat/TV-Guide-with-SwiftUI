@@ -35,6 +35,7 @@
 		F2455FF127D632F80067474E /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F2455FF227D634D20067474E /* TVNow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVNow.swift; sourceTree = "<group>"; };
 		F286FCB727D6419E007E1432 /* ChannelItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelItem.swift; sourceTree = "<group>"; };
+		F2913ED427DA7CC40056643B /* preview.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = preview.mp4; sourceTree = "<group>"; };
 		F29186B627D7C18B00495BE6 /* ChannelDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelDetailViewModel.swift; sourceTree = "<group>"; };
 		F2BB988727D6597D001D97FD /* ChannelDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelDetail.swift; sourceTree = "<group>"; };
 		F2BB988927D65A73001D97FD /* ChannelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelModel.swift; sourceTree = "<group>"; };
@@ -76,6 +77,7 @@
 		F2455FDC27D630CB0067474E /* Tv Rehberim */ = {
 			isa = PBXGroup;
 			children = (
+				F2913ED427DA7CC40056643B /* preview.mp4 */,
 				F2455FEF27D632D80067474E /* Localizable.strings */,
 				F2455FDD27D630CB0067474E /* Tv_RehberimApp.swift */,
 				F2455FFC27D635700067474E /* Model */,
