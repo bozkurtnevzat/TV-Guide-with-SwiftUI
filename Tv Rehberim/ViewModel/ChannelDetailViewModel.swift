@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import SwiftDate
+
 
 class ChannelDetailViewModel: ObservableObject {
     var fullData: [ChannelDetailModel] = []
