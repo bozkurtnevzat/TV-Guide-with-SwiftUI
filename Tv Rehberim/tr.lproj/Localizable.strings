@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  Tv Rehberim
+
+  Created by Nevzat BOZKURT on 7.03.2022.
+  
+*/
+
+// Mark: Tabbar
+"tabbar_channels" = "Kanallar";
+"tabbar_tvnow" = "Tv'de Şimdi";
+"tabbar_favorites" = "Favoriler";

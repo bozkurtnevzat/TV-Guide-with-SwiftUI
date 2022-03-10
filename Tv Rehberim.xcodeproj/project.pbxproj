@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2455FDE27D630CB0067474E /* Tv_RehberimApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2455FDD27D630CB0067474E /* Tv_RehberimApp.swift */; };
+		F2455FE027D630CB0067474E /* Channels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2455FDF27D630CB0067474E /* Channels.swift */; };
+		F2455FE227D630CC0067474E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2455FE127D630CC0067474E /* Assets.xcassets */; };
+		F2455FE527D630CC0067474E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2455FE427D630CC0067474E /* Preview Assets.xcassets */; };
+		F2455FED27D632D80067474E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2455FEF27D632D80067474E /* Localizable.strings */; };
+		F2455FF327D634D20067474E /* TVNow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2455FF227D634D20067474E /* TVNow.swift */; };
+		F286FCB827D6419E007E1432 /* ChannelItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F286FCB727D6419E007E1432 /* ChannelItem.swift */; };
+		F29186B727D7C18B00495BE6 /* ChannelDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29186B627D7C18B00495BE6 /* ChannelDetailViewModel.swift */; };
+		F2BB988827D6597D001D97FD /* ChannelDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BB988727D6597D001D97FD /* ChannelDetail.swift */; };
+		F2BB988A27D65A73001D97FD /* ChannelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BB988927D65A73001D97FD /* ChannelModel.swift */; };
+		F2BB988C27D65B5E001D97FD /* ChannelDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BB988B27D65B5E001D97FD /* ChannelDetailModel.swift */; };
+		F2BB989027D66491001D97FD /* ChannelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BB988F27D66491001D97FD /* ChannelViewModel.swift */; };
+		F2BB989327D66E91001D97FD /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = F2BB989227D66E91001D97FD /* SDWebImageSwiftUI */; };
+		F2F0C61727DA493600EE321F /* TVNowRowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F0C61627DA493600EE321F /* TVNowRowItem.swift */; };
+		F2F0C61927DA52DE00EE321F /* TVNowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F0C61827DA52DE00EE321F /* TVNowModel.swift */; };
+		F2F0C61B27DA536100EE321F /* TVNowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F0C61A27DA536100EE321F /* TVNowViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F2455FDA27D630CB0067474E /* Tv Rehberim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tv Rehberim.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2455FDD27D630CB0067474E /* Tv_RehberimApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tv_RehberimApp.swift; sourceTree = "<group>"; };
+		F2455FDF27D630CB0067474E /* Channels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channels.swift; sourceTree = "<group>"; };
+		F2455FE127D630CC0067474E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2455FE427D630CC0067474E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F2455FEE27D632D80067474E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F2455FF127D632F80067474E /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F2455FF227D634D20067474E /* TVNow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVNow.swift; sourceTree = "<group>"; };
+		F286FCB727D6419E007E1432 /* ChannelItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelItem.swift; sourceTree = "<group>"; };
+		F29186B627D7C18B00495BE6 /* ChannelDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelDetailViewModel.swift; sourceTree = "<group>"; };
+		F2BB988727D6597D001D97FD /* ChannelDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelDetail.swift; sourceTree = "<group>"; };
+		F2BB988927D65A73001D97FD /* ChannelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelModel.swift; sourceTree = "<group>"; };
+		F2BB988B27D65B5E001D97FD /* ChannelDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelDetailModel.swift; sourceTree = "<group>"; };
+		F2BB988F27D66491001D97FD /* ChannelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelViewModel.swift; sourceTree = "<group>"; };
+		F2F0C61627DA493600EE321F /* TVNowRowItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVNowRowItem.swift; sourceTree = "<group>"; };
+		F2F0C61827DA52DE00EE321F /* TVNowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVNowModel.swift; sourceTree = "<group>"; };
+		F2F0C61A27DA536100EE321F /* TVNowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVNowViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2455FD727D630CB0067474E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BB989327D66E91001D97FD /* SDWebImageSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2455FD127D630CB0067474E = {
+			isa = PBXGroup;
+			children = (
+				F2455FDC27D630CB0067474E /* Tv Rehberim */,
+				F2455FDB27D630CB0067474E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2455FDB27D630CB0067474E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2455FDA27D630CB0067474E /* Tv Rehberim.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2455FDC27D630CB0067474E /* Tv Rehberim */ = {
+			isa = PBXGroup;
+			children = (
+				F2455FEF27D632D80067474E /* Localizable.strings */,
+				F2455FDD27D630CB0067474E /* Tv_RehberimApp.swift */,
+				F2455FFC27D635700067474E /* Model */,
+				F2BB988E27D6645D001D97FD /* ViewModel */,
+				F2455FFA27D6354C0067474E /* View */,
+				F2455FE127D630CC0067474E /* Assets.xcassets */,
+				F2455FE327D630CC0067474E /* Preview Content */,
+			);
+			path = "Tv Rehberim";
+			sourceTree = "<group>";
+		};
+		F2455FE327D630CC0067474E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F2455FE427D630CC0067474E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F2455FFA27D6354C0067474E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2BB988627D65612001D97FD /* Channels */,
+				F2913ED327DA740A0056643B /* TVNow */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2455FFC27D635700067474E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2BB988927D65A73001D97FD /* ChannelModel.swift */,
+				F2BB988B27D65B5E001D97FD /* ChannelDetailModel.swift */,
+				F2F0C61827DA52DE00EE321F /* TVNowModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2913ED327DA740A0056643B /* TVNow */ = {
+			isa = PBXGroup;
+			children = (
+				F2455FF227D634D20067474E /* TVNow.swift */,
+				F2F0C61627DA493600EE321F /* TVNowRowItem.swift */,
+			);
+			path = TVNow;
+			sourceTree = "<group>";
+		};
+		F2BB988627D65612001D97FD /* Channels */ = {
+			isa = PBXGroup;
+			children = (
+				F2455FDF27D630CB0067474E /* Channels.swift */,
+				F2BB988727D6597D001D97FD /* ChannelDetail.swift */,
+				F286FCB727D6419E007E1432 /* ChannelItem.swift */,
+			);
+			path = Channels;
+			sourceTree = "<group>";
+		};
+		F2BB988E27D6645D001D97FD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F2BB988F27D66491001D97FD /* ChannelViewModel.swift */,
+				F29186B627D7C18B00495BE6 /* ChannelDetailViewModel.swift */,
+				F2F0C61A27DA536100EE321F /* TVNowViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2455FD927D630CB0067474E /* Tv Rehberim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2455FE827D630CC0067474E /* Build configuration list for PBXNativeTarget "Tv Rehberim" */;
+			buildPhases = (
+				F2455FD627D630CB0067474E /* Sources */,
+				F2455FD727D630CB0067474E /* Frameworks */,
+				F2455FD827D630CB0067474E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tv Rehberim";
+			packageProductDependencies = (
+				F2BB989227D66E91001D97FD /* SDWebImageSwiftUI */,
+			);
+			productName = "Tv Rehberim";
+			productReference = F2455FDA27D630CB0067474E /* Tv Rehberim.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2455FD227D630CB0067474E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F2455FD927D630CB0067474E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F2455FD527D630CB0067474E /* Build configuration list for PBXProject "Tv Rehberim" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				tr,
+			);
+			mainGroup = F2455FD127D630CB0067474E;
+			packageReferences = (
+				F2BB989127D66E91001D97FD /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = F2455FDB27D630CB0067474E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2455FD927D630CB0067474E /* Tv Rehberim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2455FD827D630CB0067474E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2455FE527D630CC0067474E /* Preview Assets.xcassets in Resources */,
+				F2455FED27D632D80067474E /* Localizable.strings in Resources */,
+				F2455FE227D630CC0067474E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2455FD627D630CB0067474E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2455FE027D630CB0067474E /* Channels.swift in Sources */,
+				F2BB988827D6597D001D97FD /* ChannelDetail.swift in Sources */,
+				F2F0C61927DA52DE00EE321F /* TVNowModel.swift in Sources */,
+				F2455FF327D634D20067474E /* TVNow.swift in Sources */,
+				F2BB988A27D65A73001D97FD /* ChannelModel.swift in Sources */,
+				F2BB989027D66491001D97FD /* ChannelViewModel.swift in Sources */,
+				F29186B727D7C18B00495BE6 /* ChannelDetailViewModel.swift in Sources */,
+				F2BB988C27D65B5E001D97FD /* ChannelDetailModel.swift in Sources */,
+				F2455FDE27D630CB0067474E /* Tv_RehberimApp.swift in Sources */,
+				F2F0C61B27DA536100EE321F /* TVNowViewModel.swift in Sources */,
+				F2F0C61727DA493600EE321F /* TVNowRowItem.swift in Sources */,
+				F286FCB827D6419E007E1432 /* ChannelItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2455FEF27D632D80067474E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2455FEE27D632D80067474E /* en */,
+				F2455FF127D632F80067474E /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2455FE627D630CC0067474E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2455FE727D630CC0067474E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2455FE927D630CC0067474E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tv Rehberim/Preview Content\"";
+				DEVELOPMENT_TEAM = 89TMSY79N6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nevzatbozkurt.Tv-Rehberim-Sample-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2455FEA27D630CC0067474E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tv Rehberim/Preview Content\"";
+				DEVELOPMENT_TEAM = 89TMSY79N6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nevzatbozkurt.Tv-Rehberim-Sample-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2455FD527D630CB0067474E /* Build configuration list for PBXProject "Tv Rehberim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2455FE627D630CC0067474E /* Debug */,
+				F2455FE727D630CC0067474E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2455FE827D630CC0067474E /* Build configuration list for PBXNativeTarget "Tv Rehberim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2455FE927D630CC0067474E /* Debug */,
+				F2455FEA27D630CC0067474E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F2BB989127D66E91001D97FD /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F2BB989227D66E91001D97FD /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2BB989127D66E91001D97FD /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F2455FD227D630CB0067474E /* Project object */;
+}
